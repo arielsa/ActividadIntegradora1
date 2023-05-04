@@ -16,7 +16,7 @@ namespace ActividadIntegradora1
             la = new List<Auto>();
         }
 
-        public Persona(string pNombre, string pApellido, string pDNI) : this()
+        public Persona(string pDNI, string pNombre, string pApellido ) : this()
         {            
             Nombre = pNombre;
             Apellido = pApellido;
